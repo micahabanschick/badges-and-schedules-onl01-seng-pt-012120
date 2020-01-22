@@ -18,6 +18,6 @@ end
 def printer(arr)
   #new_arr = []
   arr.each {|name| new_arr << "Hello, my name is #{name}."}
-  arr.each {|name| puts "Hello, #{name}! You'll be assigned to room #{arr.index(name) + 1}
+  arr.each {|name| puts "Hello, #{name}! You'll be assigned to room #{arr.index(name) + 1}"
   #return new_arr
 end 
