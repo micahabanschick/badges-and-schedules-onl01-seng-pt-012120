@@ -9,8 +9,14 @@ def batch_badge_creator(arr)
   return new_arr
 end 
 
-def assign_rooms
+def assign_rooms(arr)
+  new_arr = []
+  arr.each {|name| new_arr << "Hello, my name is #{name}."}
+  return new_arr
 end 
 
-def printer
+def printer(arr)
+  new_arr = []
+  arr.each {|name| new_arr << "Hello, my name is #{name}."}
+  return new_arr
 end 
