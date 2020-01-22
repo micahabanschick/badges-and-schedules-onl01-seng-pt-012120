@@ -16,7 +16,8 @@ def assign_rooms(arr)
 end 
 
 def printer(arr)
-  new_arr = []
+  #new_arr = []
   arr.each {|name| new_arr << "Hello, my name is #{name}."}
-  return new_arr
+  arr.each {|name| puts "Hello, #{name}! You'll be assigned to room #{arr.index(name) + 1}
+  #return new_arr
 end 
